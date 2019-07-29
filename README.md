@@ -22,4 +22,11 @@ Step 5. Navigate through the program as you desire using the navigation bar at t
 Step 6. Once you are done with the program and wish to stop it hosting on localhost, press ctrl+c with the command prompt window active.
         (You may have to press ctrl+c twice in order to stop hosting).
 
+# Test Data
+       Currently the database contains:
+       • Username: TestUser - Password: TestPass
+       • Username: Hellow - Password: World
+       
+       Additional usernames and passwords can be directly added to the database using the registration page of the website.
+
 (Currently entering an incorrect username and/or password will cause the page to wait for a response from the server that does not exist. Unfortunately, I'm not sure as to what the problem is and was not able to fix it without compromising the signin validation.)
