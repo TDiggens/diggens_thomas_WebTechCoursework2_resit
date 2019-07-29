@@ -10,7 +10,7 @@ Step 2. Use the "npm install" command to install the following modules:
         • npm install express  
         • npm install sqlite3  
         • npm install jquery  
-        • npm install body-parser
+        • npm install body-parser  
         • npm install express-session
 
 Step 3. Use the command "node server" to run the program on the localhost port 3000.
