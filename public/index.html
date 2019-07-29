@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Index</title>
+	</head>
+	<body>
+	
+		<div class="topnav">
+			<a class="active" href="index">Encoder</a>
+			<a href="about">About</a>
+			<a href="ciphers">Ciphers</a>
+			<a href="register">Register</a>
+			<a href="signin">Sign In</a>
+			<a href="courier">Courier</a>
+		</div>
+	
+		<header>
+		<h1>ENCODER</h1>
+		</header>
+		<div class="container">
+		<div id="input_area">
+			<p>Enter the message you want to encode here:</p>
+			<textarea autofocus id="message" placeholder="Enter message here..."></textarea>
+			<br />
+			<p>Choose an encoding method</p>
+			<button type="button" onclick="encode_rot20()" id="rot20_button">Encode In ROT20</button>
+			<button type="button" onclick="encode_reverse()" id="reverse_button">Encode In Reverse</button>
+			<button type="button" onclick="encode_all()" id="all_button">Encode In ROT20Reverse</button>
+		</div>
+		
+		<div id="output_area">
+			<p>
+				This is your encoded message (Will appear in all Upper Case):<br />
+				<div id="output"></div>
+			</p>
+		</div>
+		<script type="text/javascript" src="cipher.js"></script>
+		
+		<br />
+		
+		<div id="decode_area">
+			<p>Copy the message you want to decode here:</p>
+			<textarea autofocus id="decode_message" placeholder="Enter message here..."></textarea>
+			<br />
+			<p>Choose a decoding method</p>
+			<button type="button" onclick="decode_rot20()" id="rot20_decode">Decode From ROT20</button>
+			<button type="button" onclick="decode_reverse()" id="reverse_decode">Decode From Reverse</button>
+			<button type="button" onclick="decode_all()" id="all_decode">Decode From ROT20Reverse</button>
+		</div>
+		
+		<div id="decode_output_area">
+			<p>
+				This is the decoded message (Will appear in all Upper Case):<br />
+				<div id="decode_output"></div>
+			</p>
+		</div>
+		</div>
+		<script type="text/javascript" src="decipher.js"></script>
+	</body>
+</html>

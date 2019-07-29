@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>COURIER</title>
+	</head>
+	<body>
+		
+		<div class="topnav">
+			<a href="index">Encoder</a>
+			<a href="about">About</a>
+			<a href="ciphers">Ciphers</a>
+			<a href="register">Register</a>
+			<a href="signin">Sign In</a>
+			<a class="active" href="courier.html">Courier</a>
+		</div>
+		
+		<header>
+			<h1>COURIER</h1>
+		</header>
+		
+		<div class="container">
+			<form action="/users" method="POST">
+				<h2>To use the messenger, enter the username of the user you wish to send the message to, then press 'Send via...' to choose your encoding method.</h2>
+				<hr>
+
+				<label for="username"><b>Username:</b></label>
+				<input type="text" placeholder="Enter Username" name="username" required>
+				<br >
+				<label for="courier"><b>Message:</b></label>
+				<input type="text" placeholder="Enter Message" name="courier">
+				<br >
+				<input type="submit" value="Send via ROT20" name="submit"/>
+				<input type="submit" value="Send via Reverse" name="submit"/>
+				<input type="submit" value="Send via ROT20Reverse" name="submit"/>
+			</form>
+		</div>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</body>
+</html>

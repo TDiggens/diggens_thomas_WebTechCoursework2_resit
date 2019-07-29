@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>About</title>
+	</head>
+	<body>
+	
+		<div class="topnav">
+			<a href="index">Encoder</a>
+			<a class="active" href="about">About</a>
+			<a href="ciphers">Ciphers</a>
+			<a href="register">Register</a>
+			<a href="signin">Sign In</a>
+			<a href="courier">Courier</a>
+		</div>
+		
+		<header>
+		<h1>ABOUT</h1>
+		</header>
+		
+		<h2>ROT20</h2>
+		<p>The ROT20 cipher is a variation of the caesar cipher, which is a simple form of substitution cipher.<br />
+			The caesar cipher was one of the very earliest known forms of encryption and involved taking each letter in a message then rotating them by a number of places in the alphabet.<br />
+			For example, "A" would become "B", "B" would become "C" and "Z" would become "A".<br />
+			In ROT20, each letter is rotated by twenty places, so "A" becomes "U", "B" becomes "V" and "Z" comes "T".
+		</p>
+		
+		<h2>Reverse</h2>
+		<p>The reverse cipher not only reverses the order of the user input, but also reverses the order of each word.<br />
+			This method of encryption can be very effective if the person trying to decrypt the message assumes a substitution cipher has been used when the solution is "hiding in plain sight".<br />
+			Unfortuantely, this method of cipher is not as effective if you include a palindrome in the user input.
+		</p>
+		
+		<h2>ROT20Reverse</h2>
+		<p>This cipher combines both the ROT20 and Reverse ciphers to form a combo-cipher that reverses the order of words and letters from the user input then rotates the letters by 20 places.<br />
+			Combining ciphers is a very good way to strengthen encryption. If one of the combined ciphers is broken, there is still another layer to be deciphered.<br />
+			I was going to give this cipher a more creative name but it's less confusing to go simple.
+		</p>
+	</body>
+</html>
