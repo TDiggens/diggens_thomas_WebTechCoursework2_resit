@@ -25,8 +25,8 @@ Step 6. Once you are done with the program and wish to stop it hosting on localh
 
 # Test Data
 Currently the database contains:
-• Username: TestUser - Password: TestPass
-• Username: Hellow - Password: World
+• Username: TestUser - Password: TestPass  
+• Username: Hellow - Password: World  
        
 Additional usernames and passwords can be directly added to the database using the registration page of the website.
 
