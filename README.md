@@ -14,10 +14,12 @@ Step 2. Use the "npm install" command to install the following modules:
 
 Step 3. Use the command "node server" to run the program on the localhost port 3000.
 
-Step 4. In your browser (preferably Google Chrome) enter in the address bar "localhost:3000/index.html"
+Step 4. In your browser (preferably Google Chrome) enter in the address bar "localhost:3000/index"
         This will take you to the home page of the program.
 
 Step 5. Navigate through the program as you desire using the navigation bar at the top of the web page.
 
 Step 6. Once you are done with the program and wish to stop it hosting on localhost, press ctrl+c with the command prompt window active.
         (You may have to press ctrl+c twice in order to stop hosting).
+
+(Currently entering an incorrect username and/or password will cause the page to wait for a response from the server that does not exist. Unfortunately, I'm not sure as to what the problem isand was not able to fix it without compromising the signin validation.)
