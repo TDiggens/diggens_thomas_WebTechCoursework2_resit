@@ -24,7 +24,7 @@ Step 6. Once you are done with the program and wish to stop it hosting on localh
         (You may have to press ctrl+c twice in order to stop hosting).
 
 # Test Data
-Currently the database contains:
+Currently the database contains:  
 • Username: TestUser - Password: TestPass  
 • Username: Hellow - Password: World  
        
